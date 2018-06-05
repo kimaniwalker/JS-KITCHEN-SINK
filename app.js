@@ -11,3 +11,17 @@ var y = 4;
 
 var addedsum = (x+y);
 console.log(addedsum);
+
+
+
+var firstChar = firstname.charCodeAt(0);
+var hexl = 'l'.charCodeAt(0);
+
+
+if (firstChar >= hexl) {
+console.log('Back of line')
+
+} else {
+
+console.log('next')
+}
