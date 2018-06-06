@@ -61,3 +61,54 @@ function checkage(age,name){
         console.log('Sorry ' + name + ' you are not old enough to view this page');  
     }
 } 
+
+//Create An Array
+var vegetables = ["tomato","spinach","brocolli","cabbage","greens"];
+
+//Loop For Array
+var v;
+for (v = 0; v < vegetables.length; v++ ){
+    console.log(vegetables[v] + '\n');
+}
+
+//Array For Name and Age Properties
+var names = ["Key","John","Tia","Kas","Kev"];
+var ageproperty = [12, 25, 30, 15, 35];
+var nameage = names.concat(ageproperty);
+
+//Loop For checkage
+var n;
+for (n = 0; n < names.length; n++)
+{
+    //var y = names[n];
+    //var x = ageproperty[n];
+    (checkage(ageproperty[n],names[n]));
+}
+
+// Return number of Charachter
+var str = "Hello World";
+var lengthfromgetlength = (getlength(str));
+
+function getlength(str){
+    var lengthofstr = str.length;
+    return lengthofstr;
+   
+}
+console.log(lengthfromgetlength);
+
+
+//Check if number is even or odd
+var evenorodd = (isEven(lengthfromgetlength));
+
+function isEven(value) {
+    var truefalsevalue;
+
+	if (value%2 == 0){
+        truefalsevalue= "The world is nice and even";
+    } else {
+        truefalsevalue= "The world is an odd place";
+    }
+	return (truefalsevalue)	;
+	
+}
+console.log(evenorodd);
